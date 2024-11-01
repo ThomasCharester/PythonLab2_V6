@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c4c59fa6-fdc5-45ce-9b96-fd9819fbfe03</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonLab2_4.py</StartupFile>
+    <StartupFile>PythonLab2_3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

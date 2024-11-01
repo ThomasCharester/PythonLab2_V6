@@ -1,10 +1,12 @@
 def MultiTool(anything):
     anythingType = type(anything)
+    isinstance(anything,int)
     if anythingType == int:
         while anything > 0:
             print(anything%10,end = '')
             anything = int(anything/10)
         print('')
+
     elif anythingType == str:
         summ = 0
         for ch in anything:
@@ -19,7 +21,7 @@ def MultiTool(anything):
                 for ch in item:
                     count += 1
                 print(item + ' - ' + str(count) + ' letters')
-       
+    
     elif anythingType == tuple:
         numbers = 0
         characters = 0

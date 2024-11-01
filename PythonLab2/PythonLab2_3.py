@@ -1,5 +1,7 @@
 def matrixCheck(matrix):
-    if len(matrix) != len(matrix[0]): return False
+    for i in range(len(matrix)):
+        if len(matrix) != len(matrix[i]): return False
+    
     for i in range(len(matrix)):
         for j in range(len(matrix)):
             if matrix[i][j] != matrix[j][i]:

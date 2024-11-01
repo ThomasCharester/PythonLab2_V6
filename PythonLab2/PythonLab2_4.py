@@ -5,6 +5,6 @@ try:
 except RecursionError:
     print("OMG Your python restricted hold that much stupid functions")
 else:
-    print("DIRTY CHEATER!! TURN IT OFF AND TRY AGAIN!!")
+    print("DIRTY CHEATER!! TURN CHEATS OFF AND TRY AGAIN!!")
 finally:
     print("Read the text above idk...")
